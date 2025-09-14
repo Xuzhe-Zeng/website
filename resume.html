@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume — Xuzhe Zeng</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">XZ</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Resume</h1>
+    <p class="muted">[Placeholder] Upload your one-page resume as <code>resume.pdf</code> to the root folder. The viewer below will load it automatically once present.</p>
+
+    <div class="card">
+      <p class="muted small">If the PDF does not load, provide a direct link:</p>
+      <p><a class="button" href="resume.pdf" target="_blank" rel="noopener">Open resume.pdf</a></p>
+      <div class="pdf-embed">
+        <iframe src="resume.pdf" title="Resume PDF" loading="lazy"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Xuzhe Zeng</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
