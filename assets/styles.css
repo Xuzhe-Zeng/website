@@ -49,7 +49,7 @@ ul.plain{list-style:none;padding-left:0}
 .profile-photo {
   width: 300px;      /* 固定宽度 */
   height: 580px;     /* 固定高度（配合圆头像） */
-  border-radius: 100%;/* 圆形头像 */
+  border-radius: 0%;/* 圆形头像 */
   object-fit: cover; /* 裁剪填满，不会被拉伸变形 */
 
   display: block;
