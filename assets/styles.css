@@ -46,3 +46,12 @@ ul.plain{list-style:none;padding-left:0}
 .pdf-embed iframe{width:100%;height:100%;border:0}
 
 .site-footer{border-top:1px solid var(--line);padding:1rem 0;text-align:center;color:var(--muted)}
+.profile-photo {
+  width: 180px;      /* 固定宽度 */
+  height: 180px;     /* 固定高度（配合圆头像） */
+  border-radius: 50%;/* 圆形头像 */
+  object-fit: cover; /* 裁剪填满，不会被拉伸变形 */
+
+  display: block;
+  margin: 0 auto;    /* 在 card 里面水平居中 */
+}
