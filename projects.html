@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects — Xuzhe Zeng</title>
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="site-header">
@@ -22,70 +22,92 @@
 
   <main class="container">
     <h1>Projects</h1>
-    <p class="muted">[Placeholder] Use consistent structure (IMRD/IDEC): Objective, Methods, Results, Discussion. Clearly state your contribution and impact.</p>
+    <p class="muted">
+      [Placeholder] Use consistent structure (IMRD/IDEC): Objective, Methods, Results, Discussion.
+      Clearly state your contribution and impact.
+    </p>
 
     <div class="grid-3">
 
       <article class="card">
         <h3>Acoustic Porosity Mapping in Laser Powder Bed Fusion</h3>
-        <p>Developed a machine learning pipeline that maps airborne acoustic signals to sub-scanline porosity in LPBF using synchronized sensor and CT data.</p>
+        <p>
+          Developed a machine learning pipeline that maps airborne acoustic signals to sub-scanline porosity
+          in LPBF to enable more reliable, real-time quality monitoring, using synchronized acoustic and CT data.
+        </p>
         <ul class="bullets tight">
-          <li><strong>My contribution:</strong> Designed full pipeline from signal preprocessing to CT-aligned porosity prediction; led training, evaluation, and ablation analysis.</li>
+          <li><strong>My contribution:</strong> Designed the full pipeline from signal preprocessing to CT-aligned porosity prediction; led model training, evaluation, and ablation analysis.</li>
           <li><strong>Tech stack:</strong> Python, PyTorch, NumPy, Matplotlib, MATLAB</li>
-          <li><strong>Outcome/Impact:</strong> Achieved sub-scanline porosity quantification; results accepted as arXiv preprint (2025).</li>
-        </ul>
-      </article>
-
-
-      <article class="card">
-        <h3>Project 2 — 111</h3>
-        <p>[Placeholder] One-sentence problem statement and your role.</p>
-        <ul class="bullets tight">
-          <li><strong>My contribution:</strong> …</li>
-          <li><strong>Tech stack:</strong> …</li>
-          <li><strong>Outcome/Impact:</strong> …</li>
+          <li><strong>Outcome/Impact:</strong> Achieved accurate sub-scanline porosity quantification (R² ≈ 0.xx on held-out builds); results released as a 2025 arXiv preprint.</li>
         </ul>
       </article>
 
       <article class="card">
-        <h3>Project 3 — Title TBD</h3>
-        <p>[Placeholder] One-sentence problem statement and your role.</p>
+        <h3>Closed-loop Process Monitoring and Control for MIG Welding</h3>
+        <p>
+          Built a multi-sensor and machine learning framework for MIG welding to reduce weld defects and
+          stabilize penetration by enabling real-time monitoring and parameter adjustment.
+        </p>
         <ul class="bullets tight">
-          <li><strong>My contribution:</strong> …</li>
-          <li><strong>Tech stack:</strong> …</li>
-          <li><strong>Outcome/Impact:</strong> …</li>
+          <li><strong>My contribution:</strong> Identified key defect types, selected acoustic/arc-light/electrical sensors, designed the data collection pipeline, and sketched the closed-loop control logic with an industry welding partner.</li>
+          <li><strong>Tech stack:</strong> Python, PyTorch, MATLAB, data acquisition hardware, MIG welding equipment</li>
+          <li><strong>Outcome/Impact:</strong> Delivered a synchronized multi-modal sensing setup and baseline models that are now being prepared for closed-loop tests to improve weld quality and process stability.</li>
         </ul>
       </article>
 
       <article class="card">
-        <h3>Project 4 — Title TBD</h3>
-        <p>[Placeholder]</p>
+        <h3>Multimodal Melt Pool Prediction and Visualization in LPBF</h3>
+        <p>
+          Designed deep learning models that use acoustic and photodiode signals to reconstruct and visualize
+          melt-pool behavior in laser powder bed fusion, helping engineers understand how process settings
+          affect pool stability.
+        </p>
         <ul class="bullets tight">
-          <li><strong>My contribution:</strong> …</li>
-          <li><strong>Tech stack:</strong> …</li>
-          <li><strong>Outcome/Impact:</strong> …</li>
+          <li><strong>My contribution:</strong> Collected and preprocessed sensor data, implemented multiple PCA+deep learning pipelines, and compared models using common error metrics and visual inspection of reconstructed melt-pool images.</li>
+          <li><strong>Tech stack:</strong> Python, PyTorch, NumPy, Matplotlib, LPBF experimental platform</li>
+          <li><strong>Outcome/Impact:</strong> Identified architectures that best capture melt-pool shape and dynamics and produced visual tools that link process parameters, signals, and melt-pool behavior for later use in monitoring.</li>
         </ul>
       </article>
 
       <article class="card">
-        <h3>Project 5 — Title TBD</h3>
-        <p>[Placeholder]</p>
+        <h3>Simulation and Optimization of Mechanical Connection Process</h3>
+        <p>
+          Simulated the self-piercing riveting (SPR) process to design and select die geometries that produce
+          strong and reliable joints while keeping the die model simple to use in industry.
+        </p>
         <ul class="bullets tight">
-          <li><strong>My contribution:</strong> …</li>
-          <li><strong>Tech stack:</strong> …</li>
-          <li><strong>Outcome/Impact:</strong> …</li>
+          <li><strong>My contribution:</strong> Proposed a parameterized die concept, defined performance metrics for comparing dies, and ran SPR simulations for each candidate die to guide selection.</li>
+          <li><strong>Tech stack:</strong> Simufact.forming, SolidWorks, basic scripting for data processing</li>
+          <li><strong>Outcome/Impact:</strong> Recommended a die design with improved performance and a clear evaluation method that can be reused for future SPR tooling studies.</li>
         </ul>
       </article>
 
       <article class="card">
-        <h3>Project 6 — Title TBD</h3>
-        <p>[Placeholder]</p>
+        <h3>Personal Mobility Device for People with Disabilities</h3>
+        <p>
+          Designed a wheelchair tailored to user needs to improve comfort and daily mobility for people with
+          disabilities, moving from requirements to a manufacturable CAD model.
+        </p>
         <ul class="bullets tight">
-          <li><strong>My contribution:</strong> …</li>
-          <li><strong>Tech stack:</strong> …</li>
-          <li><strong>Outcome/Impact:</strong> …</li>
+          <li><strong>My contribution:</strong> Built a PUGH matrix from technical requirements, created detailed CAD models with assemblies and animations, and checked strength using simple stress analyses.</li>
+          <li><strong>Tech stack:</strong> CATIA, SolidWorks, basic engineering design methods (PUGH matrix, requirements analysis)</li>
+          <li><strong>Outcome/Impact:</strong> Delivered a complete wheelchair design package with clear visuals and design rationale that could be handed off for prototyping.</li>
         </ul>
       </article>
+
+      <article class="card">
+        <h3>Design and Build of a Simple Vehicle</h3>
+        <p>
+          Worked in a student team to design, simulate, and build a small vehicle, turning classroom mechanics
+          and design theory into a working prototype.
+        </p>
+        <ul class="bullets tight">
+          <li><strong>My contribution:</strong> Helped size and evaluate key parameters for the frame and power system, modeled the vehicle in CAD, and assisted with welding, assembly, and on-site testing.</li>
+          <li><strong>Tech stack:</strong> SolidWorks, basic structural simulation, workshop tools for fabrication and welding</li>
+          <li><strong>Outcome/Impact:</strong> Completed a functional vehicle that met project performance targets and passed basic strength checks, giving the team hands-on experience in the full design–build cycle.</li>
+        </ul>
+      </article>
+
     </div>
   </main>
 
@@ -96,3 +118,4 @@
   <script src="assets/script.js"></script>
 </body>
 </html>
+
