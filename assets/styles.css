@@ -48,8 +48,8 @@ ul.plain{list-style:none;padding-left:0}
 .site-footer{border-top:1px solid var(--line);padding:1rem 0;text-align:center;color:var(--muted)}
 .profile-photo {
   width: 300px;      /* 固定宽度 */
-  height: 580px;     /* 固定高度（配合圆头像） */
-  border-radius: 0%;/* 圆形头像 */
+  height: 480px;     /* 固定高度（配合圆头像） */
+  border-radius: 10%;/* 圆形头像 */
   object-fit: cover; /* 裁剪填满，不会被拉伸变形 */
 
   display: block;
